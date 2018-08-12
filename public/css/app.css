@@ -1,0 +1,99 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #d7d7d7;
+    color: black;
+}
+
+h4 {
+    color: #6d6d6d;
+}
+
+#barra {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+}
+
+#bar {
+    height: 10px;
+    background-color: #4CAF50;
+}
+
+#start {
+    border: none;
+    color: white;
+    padding: 12px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#next {
+    border: none;
+    color: white;
+    padding: 12px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#back {
+    border: none;
+    color: white;
+    padding: 12px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#startagain {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+#main {
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    background-color: #f0473d;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+#progress-title,#questCount, #question, #answers , #content {
+    color: black;
+}
+
+
+/* Smartphones (portrait and landscape)
+*  For radio buttons displaying on a single rows
+*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .col-xs-6 {
+        width: 51%;
+    }
+}
