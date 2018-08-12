@@ -7,7 +7,7 @@ A Simple php mvc quiz application
  - Git clone this repository
  - Change directory into root of cloned folder
  - Enter `composer install` (assuming you have `composer` and its related packages installed and or configured)
- - Change database connections in  `app/config/config.php`  to your local connection details (For production , comment out error 
+ - Change database connections in  `app/config/config.php`  to your local connection details (For production , comment error 
    reporting, feel free to also change port number)
  - Database dump sql file is in  `app/_install` (Feel free to run the other sql scripts individually for fresh database)
  - Run `php -S localhost:3000` (change this port to correspond to what is in config)
